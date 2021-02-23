@@ -122,3 +122,34 @@
   justify-items: center;
   opacity: 0.5;
 }
+
+/* media queries */
+@media only screen and (max-width: 375px) {
+  .images {
+    justify-items: end;
+    grid-template-columns: 25% 25%;
+  }
+
+  .card-section {
+    font-family: 'Kumbh Sans', sans-serif;
+    height: 100%;
+    display: block;
+  }
+
+  .card {
+    font-size: 16px;
+    height: 85%;
+    margin: 0 auto;
+    position: relative;
+    top: 45px;
+  }
+
+  .personal-image > img {
+    width: 45%;
+    left: 80px;
+  }
+
+  .personal-image {
+    height: 20%;
+  }
+}
